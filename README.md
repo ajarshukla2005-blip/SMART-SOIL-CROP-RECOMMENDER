@@ -6,7 +6,7 @@ Farming is increasingly unpredictable. Often, farmers rely on traditional knowle
 How to Set It Up
 You don't need a massive supercomputer to run this. Just a standard Python environment.
 
-Clone the repository: git clone https://github.com/yourusername/smart-soil.git
+Clone the repository: git clone https://github.com/yourusername/SMART-SOIL-CROP-RECOMMENDER.git
 
 Navigate to the directory:
 cd smart-soil
@@ -17,3 +17,16 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 Download the Data:
 Ensure you have the crop_recommendation.csv dataset in the root folder
+How to Use It
+Simply run the main script from your terminal:
+python main.py
+
+The script will:
+
+Load and clean the dataset.
+
+Train a Random Forest Classifier on the historical environmental data.
+
+Output an accuracy score and a detailed classification report.
+
+Generate a feature_importance.png graph showing whether Nitrogen, Phosphorus, or Temperature was the biggest deciding factor for the model.
